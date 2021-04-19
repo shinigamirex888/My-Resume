@@ -385,7 +385,7 @@ button:focus {
   position: absolute;
   width: 15px;
   height: 15px;
-  background-color: lightgrey;
+  background-color: black;
   top: 25%;
   border-radius: 50%;
   z-index: 1;
@@ -437,7 +437,7 @@ button:focus {
   transform: rotate(90deg);
   margin-top: -35px;
   display: block;
-  color: #2857a4;
+  color: black;
 }
 
 .experience-designation {
@@ -467,4 +467,53 @@ button:focus {
 
 .text-align-justify {
   text-align: justify;
+}
+
+@media only screen and (max-width: 572px) {
+  .timeline-box {
+    width: 100%;
+    left: 10% !important;
+  }
+
+  .bars {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .timeline-box {
+    width: 90%;
+    left: 10% !important;
+  }
+
+  .timeline-box::after {
+    left: -9.3% !important;
+  }
+
+  #timeline-divider {
+    top: 10%;
+    left: 2%;
+  }
+
+  #contact-form {
+    margin-left: 0%;
+  }
+
+  #contact-container {
+    flex-wrap: wrap;
+  }
+
+  #my-details-container {
+    width: 80%;
+    margin: 10%;
+  }
+
+  #contact-form-container {
+    width: 80%;
+    margin: 10%;
+  }
 }
