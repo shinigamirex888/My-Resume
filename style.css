@@ -177,8 +177,8 @@ section:nth-child(2n + 1) {
 .skill-name span {
   color: white;
   font-size: 1rem;
-  margin-left: 40px;
-
+  margin-left: 20px;
+  font-weight: bold;
   vertical-align: middle;
 }
 
